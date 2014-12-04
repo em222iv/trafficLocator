@@ -1,0 +1,38 @@
+#messages {
+    width: 20%;
+    height: 50%;
+    float:right;
+    margin-top: 25%;
+    margin-right: 3%;
+    overflow: scroll;
+    border-left: dotted;
+    border-bottom: dotted;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+    min-width: 200px;
+    text-decoration-color: black;
+
+}
+#categories {
+    width: 20%;
+    height: 50%;
+    float:right;
+    margin-top: 25%;
+    margin-right: 3%;
+    overflow: scroll;
+    border-left: dotted;
+    border-bottom: dotted;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+    min-width: 200px;
+    text-decoration-color: black;
+
+}
+#map-canvas {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
