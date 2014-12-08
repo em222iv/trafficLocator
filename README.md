@@ -27,6 +27,7 @@ Jag förvarar data i en JSON-fil. Med phps inbyggda "filemtime" kollar jag hur l
 
 <h4>Vad finns det för risker med din applikation?<h/4>
 <p>
+Det är ett stort beroende från APIerna. Skulle det ändras någonting ,t.ex format av data i mitt kall, i APIerna så skulle inte min applikation fungera. Detta kan också se som ett säkerhetsproblem.
 </p>
 
 
