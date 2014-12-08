@@ -1,12 +1,16 @@
 function renderFullMessageList($messageTitle,id) {
-
+console.log();
     var x = document.getElementById('messages');
     var aTAG = document.createElement('a');
-    aTAG.href='#'+id;
-    var br = document.createElement('br');
+    aTAG.href='#';
+    aTAG.id=id;
 
-    aTAG.innerText = $messageTitle;
+    var br = document.createElement('hr');
 
-    x.appendChild(aTAG);
-    x.appendChild(br);
+    aTAG.textContent = $messageTitle;
+
+
+    x.insertBefore(aTAG, x.firstChild);
+    x.insertBefore(br, x.firstChild);
+
 }
